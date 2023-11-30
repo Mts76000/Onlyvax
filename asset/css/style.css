@@ -1,0 +1,2277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --texta: #3957B1;
+    --text: #090c1a;
+    --text2: #ffffff;
+    --background: #fbfcfe;
+    --primary: #452a79;
+    --secondary: #ead2ef;
+    --accent: #a240b5;
+    --boxright: #0E9594;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+    transition: transform 0.3s;
+    color: var(--text2);
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: var(--text2);
+}
+
+img {
+    width: 100%;
+}
+
+.lead {
+    color: #333;
+    font-size: 1.15em;
+    text-transform: uppercase;
+}
+
+
+#masthead {
+    display: flex;
+}
+
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.wrap2 {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#forgot_password .wrap .box_right form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_page {
+    color: var(--text2);
+}
+
+/*HEADER*/
+
+.titreHeader h1 {
+    transition: all 300ms ease-in-out;
+}
+
+.titreHeader h1:hover {
+    transform: scale(1.15);
+}
+
+.titreHeader h1 {
+    transition: all 300ms ease-in-out;
+}
+
+.titreHeader h1:hover {
+    transform: scale(1.15);
+}
+
+#masthead {
+    display: flex;
+    background: var(--primary);
+    color: var(--text2);
+}
+
+#masthead .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#masthead li {
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+
+#masthead li:hover {
+    transform: scale(1.1);
+}
+
+#masthead ul {
+    display: flex;
+    align-items: center;
+}
+
+
+#masthead ul a {
+    padding: 2rem;
+}
+
+
+/*ACCUEIL*/
+
+
+#accueil .img_accueil {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+
+
+/*QUI SOMMES-NOUS*/
+
+#quiSommeNous {
+    text-align: center;
+}
+
+#quiSommeNous h2 {
+    color: var(--primary);
+    padding: 4rem 0;
+    font-size: 2.5rem;
+}
+
+#quiSommeNous .qsm_pres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#quiSommeNous .qsm_pres p {
+    background: var(--secondary);
+    padding: 2rem;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+
+#quiSommeNous .qsm_pres img {
+    width: 50%;
+}
+
+/*QUESTION FREQUENTE */
+
+#questionFrequente {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+#questionFrequente h2 {
+    color: var(--primary);
+    padding: 4rem 0;
+    font-size: 2.5rem;
+}
+
+#questionFrequente .qcm_pres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#questionFrequente .qcm_pres p {
+    background: var(--secondary);
+    padding: 2rem;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+
+#questionFrequente .qcm_pres img {
+    width: 50%;
+}
+
+/*FOOTER*/
+
+.imgfooter {
+    background-image: url("../img/wave_footer.png");
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 260px;
+    margin: -1%;
+}
+
+footer {
+    background: var(--primary);
+}
+
+footer .footerAll {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    align-items: center;
+    text-align: center;
+}
+
+footer .footerAll .contact h2 {
+    padding-bottom: 2.5rem;
+    font-size: 2.3rem;
+}
+
+footer .footerAll .contact li {
+    font-size: 1.2rem;
+    border: 6px solid white;
+    padding: .8rem;
+    transition: transform 0.3s;
+}
+
+footer .footerAll .contact:hover li:hover {
+    transform: scale(1.1);
+}
+
+footer .footerAll .nav {
+    text-align: left;
+    border-left: 2px solid white;
+    min-height: 100%;
+}
+
+footer .footerAll .nav li {
+    padding: .6rem;
+    transition: transform 0.3s;
+
+}
+
+footer .footerAll .nav li:hover {
+    transform: scale(1.1);
+}
+
+footer .footerAll .reseau {
+    padding-left: 0.6rem;
+    border-left: 2px solid white;
+}
+
+footer .footerAll .reseau li {
+    transition: transform 0.3s;
+}
+
+footer .footerAll .reseau li a {
+    font-size: 2rem;
+}
+
+footer .footerAll .reseau li:hover {
+    transform: scale(1.1);
+}
+
+
+/*NOS SERVICES*/
+
+.ns_pres {
+    display: flex;
+    text-align: center;
+}
+
+#nosService>div>h2 {
+    color: var(--primary);
+    padding: 4rem 0;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ns_pres .pres1 {
+    background: var(--secondary);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.ns_pres .pres1 img {
+    width: 9rem;
+    padding: 1rem;
+}
+
+.ns_pres .pres1 p {
+    padding: 1rem;
+}
+
+.ns_pres .pres1 h2 {
+    padding: 0 1rem;
+}
+
+
+
+/*CONTACT*/
+
+#contact .wrap {
+    display: flex;
+}
+
+/*INSCRIPTION*/
+
+#incription .wrap {
+    display: flex;
+}
+
+/*CONNEXION*/
+
+#connexion .wrap {
+    display: flex;
+
+}
+
+/*ADD_VACCIN*/
+
+#add_vaccin .wrap {
+    display: flex;
+}
+
+/*ADD_CARNET*/
+
+#add_carnet .wrap {
+    display: flex;
+}
+
+/*edit_vaccin*/
+
+#edit_vaccin .wrap {
+    display: flex;
+}
+
+
+
+
+.container_usermenu {
+    display: flex;
+    justify-content: end;
+}
+
+/*LISTING*/
+
+#listing .wrap .intro_listing {
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+#listing .wrap .intro_listing .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#listing .wrap .box_left img {
+    width: 28rem;
+}
+
+
+
+#listing .wrap .box_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+}
+
+#listing .wrap .box_right a {
+    background: var(--boxright);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 15px;
+    margin: .5rem;
+    width: 25rem;
+    transition: transform 0.3s;
+}
+
+#listing .wrap .box_right a:hover {
+    transform: scale(1.1);
+}
+
+#listing .wrap .box_right p {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: .5rem;
+    width: 25rem;
+
+}
+
+
+#liste_carnet .wrap .container_carnet {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 3rem;
+    border-radius: 10px;
+    align-items: center;
+    background: var(--primary);
+}
+
+#liste_carnet .wrap .container_carnet .carnet {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#liste_carnet .wrap .container_carnet .carnet img {
+    width: 4rem;
+    margin-right: 3rem;
+}
+
+#liste_carnet .wrap .suprRappel {
+    display: flex;
+}
+
+#liste_carnet .wrap .suprRappel a {
+    display: flex;
+    align-items: center;
+    padding: .6rem 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 3rem;
+}
+
+#liste_carnet .wrap .suprRappel a img {
+    width: 1.7rem;
+    margin-right: .7rem;
+}
+
+
+/*CARNET DE VACCINATION*/
+
+#single_vax .wrap .boxVax {
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+}
+
+#single_vax .wrap .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#single_vax .wrap .box_left img {
+    width: 28rem;
+}
+
+
+
+#single_vax .wrap .box_right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    align-items: center;
+}
+
+#single_vax .wrap .box_right a {
+    background: var(--boxright);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 15px;
+    margin: .5rem;
+    width: 25rem;
+    transition: transform 0.3s;
+}
+
+#single_vax .wrap .box_right a:hover {
+    transform: scale(1.1);
+}
+
+#single_vax .wrap .box_right p {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: .7rem;
+    border-radius: 15px;
+    margin: .5rem;
+    width: 25rem;
+
+}
+
+#single_vax a {
+    text-decoration: none;
+    color: var(--text2);
+}
+
+#vax a {
+    text-decoration: none;
+    color: var(--text2);
+}
+
+#vax .wrap {
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary);
+    border-radius: 15px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+#vax .container_carnet {
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary);
+    border-radius: 15px;
+    margin: 2rem;
+}
+
+#vax .container_carnet .carnet img {
+    margin-right: 3rem;
+}
+
+#vax .container_carnet .carnet {
+    display: flex;
+    align-items: center;
+}
+
+#vax .wrap .suprRappel {
+    display: flex;
+}
+
+#vax .wrap .suprRappel a {
+    display: flex;
+    align-items: center;
+    padding: .6rem 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 3rem;
+}
+
+#vax .wrap .suprRappel a img {
+    width: 1.7rem;
+    margin-right: .7rem;
+}
+
+#vax .container_carnet .carnet .fichedetail {
+    flex-direction: column;
+}
+
+#vax .carnet img {
+    width: 4rem;
+}
+
+#vax .wrap {
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    margin: 3rem auto;
+}
+
+#vax i {
+    padding-right: .4rem;
+}
+
+#vax a {
+    display: flex;
+    align-items: center;
+    padding: .6rem 1.4rem;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+#vax p {
+    color: var(--text2);
+}
+
+#vax a img {
+    width: 1rem;
+    margin: .4rem;
+}
+
+#no_vax {
+    padding: 0 15rem;
+}
+
+#no_vax p {
+    color: white;
+    background: var(--primary);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3rem 6rem;
+    border-radius: 15px;
+}
+
+/*RAPPELS*/
+
+
+#rappels .wrap .intro_rappels {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+}
+
+#rappels .wrap .intro_rappels .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#rappels .wrap .box_left img {
+    width: 28rem;
+}
+
+
+
+#rappels .wrap .box_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+    align-items: center;
+}
+
+#rappels .wrap .box_right a {
+    background: var(--boxright);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 15px;
+    margin: .5rem;
+    width: 25rem;
+    transition: transform 0.3s;
+}
+
+#rappels .wrap .box_right a:hover {
+    transform: scale(1.1);
+}
+
+#rappels .wrap .box_right p {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: .5rem;
+    width: 25rem;
+
+}
+
+
+#rappel .vaccin_container {
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+
+#rappel img {
+    width: 4rem;
+    margin: .4rem;
+}
+
+#rappel .vaccin_container_logo img {
+    margin-right: 3rem;
+}
+
+#rappel span {
+    color: var(--text2);
+}
+
+#rappel {
+    padding: 0 14rem;
+    margin: 3rem 0;
+}
+
+/*ADD CARNET*/
+
+#add_carnet .wrap {
+    flex-direction: column;
+}
+
+
+#add_carnet .wrap .intro_carnet {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+}
+
+#add_carnet .wrap .intro_carnet .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#add_carnet .wrap .box_left img {
+    width: 28rem;
+}
+
+
+
+#add_carnet .wrap .box_right form .allboxform {
+    display: flex;
+    padding-left: 3rem;
+    align-items: center;
+}
+
+
+#add_carnet .wrap .box_right form .box_form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#add_carnet .wrap .box_right form .box_form2 {
+    text-align: center;
+    align-items: center;
+}
+
+#add_carnet .box_right .box_form .input_set {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem;
+}
+
+#add_carnet .box_right .box_form2 input {
+    background: var(--primary);
+    color: var(--text2);
+    padding: .6rem 3rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s
+}
+
+#add_carnet form label focus {
+    color: red;
+}
+
+/*ADD VACCIN*/
+
+#add_vaccin .wrap {
+    flex-direction: column;
+}
+
+#add_vaccin .wrap .intro_carnet {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+}
+
+#add_vaccin .wrap .intro_carnet .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#add_vaccin .wrap .box_left img {
+    width: 28rem;
+}
+
+
+
+#add_vaccin .wrap .box_right form .allboxform {
+    display: flex;
+    padding-left: 3rem;
+    align-items: center;
+}
+
+
+#add_vaccin .wrap .box_right form .box_form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#add_vaccin .wrap .box_right form .box_form2 {
+    text-align: center;
+    align-items: center;
+}
+
+#add_vaccin .box_right .box_form .input_set {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem;
+}
+
+#add_vaccin .box_right .box_form2 input {
+    background: var(--primary);
+    color: var(--text2);
+    padding: .6rem 3rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s
+}
+
+#add_vaccin .box_right .checkbox {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#add_vaccin .box_right .checkbox p {
+    padding: 0 1rem;
+}
+
+#add_vaccin form label focus {
+    color: red;
+}
+
+/*EDIT VACCIN */
+
+#edit_vaccin .wrap {
+    flex-direction: column;
+}
+
+#edit_vaccin .wrap .intro_carnet {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+}
+
+#edit_vaccin .wrap .intro_carnet .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#edit_vaccin .wrap .box_left img {
+    width: 28rem;
+}
+
+
+
+#edit_vaccin .wrap .box_right form .allboxform {
+    display: flex;
+    padding-left: 3rem;
+    align-items: center;
+}
+
+
+#edit_vaccin .wrap .box_right form .box_form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#edit_vaccin .wrap .box_right form .box_form2 {
+    text-align: center;
+    align-items: center;
+}
+
+#edit_vaccin .box_right .box_form .input_set {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem;
+}
+
+#edit_vaccin .box_right .box_form2 input {
+    background: var(--primary);
+    color: var(--text2);
+    padding: .6rem 3rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s
+}
+
+#edit_vaccin .box_right .checkbox {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#edit_vaccin .box_right .checkbox p {
+    padding: 0 1rem;
+}
+
+#edit_vaccin .box_right form .input_set {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem;
+}
+
+form label focus {
+    color: red;
+}
+
+/*CONTACT*/
+
+#contact .wrap {
+    flex-direction: column;
+}
+
+
+#contact .wrap .intro_carnet {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    align-items: center;
+}
+
+#contact .wrap .intro_carnet .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+    padding: .2rem;
+}
+
+#contact .wrap .box_right form {
+    padding-left: 3rem;
+    align-items: center;
+}
+
+#contact .wrap .box_right form .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .wrap .box_right form .box input {
+    background: var(--secondary);
+    border: none;
+}
+
+#contact .wrap .box_right form .box {
+    padding: 1rem;
+}
+
+#contact .wrap .box_right form .boxhaut {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .wrap .box_right form .box textarea,
+input {
+    background: var(--secondary);
+    resize: none;
+    border: none;
+    padding: 1rem;
+}
+
+#contact .wrap .box_right form .box_form2 {
+    display: flex;
+    justify-content: center;
+}
+
+#contact .wrap .box_right form .box_form2 input {
+    background: var(--primary);
+    color: var(--text2);
+    padding: .6rem 3rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s
+}
+
+.box_form2 input:hover {
+    transform: scale(1.1);
+}
+
+/*CONNEXION */
+
+#connexion .wrap {
+    flex-direction: column;
+}
+
+
+#connexion .wrap .intro_carnet {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+}
+
+#connexion .wrap .intro_carnet .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#connexion .wrap .box_left img {
+    width: 28rem;
+}
+
+#connexion .wrap .box_right form {
+    padding-left: 3rem;
+    align-items: center;
+}
+
+#connexion .wrap .box_right form .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#connexion .wrap .box_right form input {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem;
+}
+
+#connexion .wrap .box_right form .box {
+    padding: 1rem;
+}
+
+#connexion .wrap .box_right form .boxhaut {
+    display: flex;
+}
+
+
+#connexion .wrap .box_right form .box_form2 {
+    display: flex;
+    justify-content: center;
+}
+
+#connexion .wrap .box_right form .box_form2 input {
+    background: var(--primary);
+    color: var(--text2);
+    padding: .6rem 3rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s
+}
+
+.forget_mdp {
+    color: var(--texta);
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.forget_mdp:hover {
+    color: var(--accent);
+}
+
+/*INSCRIPTION*/
+
+#incription .wrap {
+    flex-direction: column;
+}
+
+
+#incription .wrap .intro_carnet {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+}
+
+#incription .wrap .intro_carnet .separator {
+    height: 20vw;
+    width: 20px;
+    background: var(--primary);
+}
+
+#incription .wrap .box_inscri {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+#incription .wrap .box_inscri h2 {
+    color: var(--primary);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+#incription .wrap .box_inscri p {
+    font-size: 1.4rem;
+    padding: 1.7rem;
+}
+
+#incription .wrap .box_right form {
+    padding-left: 3rem;
+    align-items: center;
+}
+
+#incription .wrap .box_right form a {
+    display: flex;
+    justify-content: center;
+    color: var(--primary);
+}
+
+#incription .wrap .box_right form .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#incription .wrap .box_right form input {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem;
+}
+
+#incription .wrap .box_right form {
+    align-items: center;
+}
+
+#incription .wrap .box_right form .box {
+    padding: 1rem;
+}
+
+#incription .wrap .box_right form .boxhaut {
+    display: flex;
+}
+
+#incription .wrap .box_right form .boxbas {
+    display: flex;
+}
+
+.mdp_2 {
+    justify-content: flex-end;
+}
+
+#incription .wrap .box_right form .box_form2 {
+    display: flex;
+    justify-content: center;
+}
+
+#incription .wrap .box_right form .box_form2 input {
+    background: var(--primary);
+    color: var(--text2);
+    padding: .6rem 3rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s;
+    margin: 2rem;
+}
+
+/*USERS */
+
+#users .wrap {
+    flex-direction: column;
+}
+
+
+#users .wrap .intro_carnet {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+    gap: 4vw;
+}
+
+#users .wrap .intro_carnet .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#users .wrap .box_inscri {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+#users .wrap .box_left img {
+    width: 15rem;
+}
+
+#users .wrap .box_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    justify-content: flex-start;
+}
+
+
+#users .wrap .box_right form {
+    padding-left: 3rem;
+    align-items: center;
+}
+
+#users .wrap .box_right .edit_mail {
+    justify-content: space-between;
+}
+
+#users .wrap .box_right .edit_password {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#users .wrap .box_right .boxmilieu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#users .wrap .box_right .boxbas {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#users .wrap .box_right {
+    justify-content: space-between;
+}
+
+#users .wrap .box_right form a {
+    display: flex;
+    justify-content: center;
+    color: var(--primary);
+}
+
+#users .wrap .box_right form .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#users .wrap .box_right form input {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem;
+}
+
+#users .wrap .box_right form {
+    align-items: center;
+    justify-content: space-between;
+}
+
+#users .wrap .box_right form .box {
+    padding: 1rem;
+}
+
+#users .wrap .box_right form .edit_mail {
+    display: flex;
+    align-items: center;
+}
+
+#users .wrap .box_right form .edit_password {
+    align-items: center;
+}
+
+#users .wrap .box_right form .boxbas {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#users .wrap .box_right form .box_form2 {
+    display: flex;
+    justify-content: center;
+}
+
+#users .wrap .box_right form .box_form2 input {
+    background: var(--primary);
+    color: var(--text2);
+    padding: .6rem 3rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s;
+    margin: 2rem;
+}
+
+/*NEW-PASS*/
+
+#new_password .wrap {
+    flex-direction: column;
+}
+
+
+#new_password .wrap .intro_carnet {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+}
+
+#new_password .wrap .intro_carnet .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#new_password .wrap .box_left img {
+    width: 28rem;
+}
+
+#new_password .wrap .box_right form {
+    padding-left: 3rem;
+    align-items: center;
+}
+
+#new_password .wrap .box_right form .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#new_password .wrap .box_right form input {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem;
+}
+
+#new_password .wrap .box_right form .box {
+    padding: 1rem;
+}
+
+#new_password .wrap .box_right form .boxhaut {
+    display: flex;
+}
+
+
+#new_password .wrap .box_right form .box_form2 {
+    display: flex;
+    justify-content: center;
+}
+
+#new_password .wrap .box_right form .box_form2 input {
+    background: var(--primary);
+    color: var(--text2);
+    padding: .6rem 3rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s
+}
+
+/*FORGET-PASS*/
+
+#forgot_password .wrap {
+    flex-direction: column;
+}
+
+
+#forgot_password .wrap .intro_carnet {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    align-items: center;
+    gap: 2vw;
+}
+
+#forgot_password .wrap .intro_carnet .separator {
+    height: 20vw;
+    width: 5px;
+    background: var(--primary);
+}
+
+#forgot_password .wrap .box_left img {
+    width: 28rem;
+}
+
+
+#forgot_password .wrap .box_right form {
+    display: flex;
+    flex-direction: column;
+}
+
+#forgot_password .wrap .box_right form input {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+
+#forgot_password .wrap .box_right form .box_form2 {
+    display: flex;
+    justify-content: center;
+}
+
+#forgot_password .wrap .box_right form .box_form2 input {
+    background: var(--primary);
+    color: var(--text2);
+    padding: .6rem 3rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s
+}
+
+
+/*MODAL */
+
+
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    position: absolute;
+    text-align: center;
+    top: 7%;
+    right: 1%;
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+    border: var(--primary) 1px solid;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal_span {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    text-align: center;
+}
+
+.modal-content .modal_span span {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.modal-content .modal_span a {
+    background-color: var(--primary);
+    border-radius: 50px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.horizontal_separator {
+    width: 50%;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 50px;
+}
+
+/*MODAL */
+
+
+/*USER */
+
+.success-box {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+/*WAAAAAAAAAAAAAAAAAAAVVVVVVVVVVVVVVVVVEEEEEEEEEEEEEE*/
+
+.wave {
+    background-image: url("../img/wave.svg");
+    background-size: 100%;
+    margin-top: -1%;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 10rem;
+}
+
+.title_page {
+    position: absolute;
+    font-size: 2vw;
+    top: 3vw;
+    left: 60vw;
+    margin: -1%;
+}
+
+.intro_carnet {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    align-items: center;
+}
+
+.box_left {
+    margin: 0 auto;
+}
+
+.box_right {
+    margin: 0 auto;
+}
+
+.pres1.aos-init.aos-animate {
+    width: 33%;
+}
+
+.surligne {
+    background-color: var(--secondary);
+    opacity: 70%;
+    height: 30px;
+    width: 26%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    z-index: -100;
+}
+
+.surligne2 {
+    background-color: var(--secondary);
+    opacity: 70%;
+    height: 30px;
+    width: 32%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 31%;
+    z-index: -100;
+}
+
+.surligne3 {
+    background-color: var(--secondary);
+    opacity: 70%;
+    height: 30px;
+    width: 37%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 28%;
+    z-index: -100;
+}
+
+.index_title {
+    position: relative;
+}
+
+#start {
+    background-color: var(--primary);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    margin-block: 2rem;
+}
+
+#start a {
+    border: solid 1.4rem var(--text2);
+    padding: 2rem;
+    font-size: 2.2rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+#fixedButton {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10%;
+    right: 3%;
+    padding: 1vw;
+    height: 4vw;
+    width: 4vw;
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 100;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#fixedButton:hover {
+    background: var(--secondary);
+    color: var(--accent);
+    box-shadow: 0 0 5px var(--accent),
+        0 0 25px var(--accent),
+        0 0 50px var(--accent),
+        0 0 200px var(--accent);
+    /*-webkit-box-reflect:below 1px linear-gradient(transparent, #0005);*/
+}
+
+form .erreur {
+    color: red;
+    font-size: .7rem;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 1rem;
+}
+
+#mention h1,
+#mention h2,
+#mention h3 {
+    padding: 2vw;
+}
+
+#mention p,
+#mention li {
+    list-style-type: circle;
+    padding: 2vw;
+}
+
+#mention li {
+    margin: 0 1.2vw;
+    padding: .8vw;
+}
+
+#mention .box_p_mention {
+    background-color: var(--secondary);
+}
+
+/* menu burger */
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: var(--primary);
+    text-align: center;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.burger-icon {
+    display: none;
+}
+
+.box_right {
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+/* Add this CSS code to your stylesheet */
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    /* White text color */
+    padding: 2rem;
+    /* Padding around the message */
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* Media query pour les écrans de taille maximale de 950 pixels */
+@media screen and (max-width: 1050px) {
+
+    #masthead .wrap {
+        justify-content: space-evenly;
+    }
+
+    footer .footerAll {
+        justify-content: space-around;
+    }
+
+    #masthead ul a {
+        padding: 2.5rem;
+    }
+
+    .pres1.aos-init.aos-animate {
+        width: 100%;
+    }
+
+    .wrap {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .ns_pres {
+        flex-direction: column;
+    }
+
+    .title_page {
+        font-size: 2.6vw;
+    }
+
+    #masthead li {
+        font-size: 1.1rem;
+    }
+
+    .modal-content {
+        top: 11%;
+        right: 6%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Media query pour les écrans de taille maximale de 950 pixels */
+@media screen and (max-width: 950px) {
+    .wrap {
+        flex-direction: column;
+    }
+
+    #users .wrap .intro_carnet {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        gap: 4vw;
+        padding: 0;
+    }
+
+    #users .wrap .intro_carnet .separator {
+        height: 5px;
+        width: 30vw;
+    }
+
+    #users .wrap .box_right form {
+        padding-left: 0;
+
+    }
+
+    .title_page {
+        position: absolute;
+        font-size: 3vw;
+        top: 3vw;
+        left: 59vw;
+        margin: -1%;
+    }
+
+    #rappel {
+        padding: 0 8vw;
+        margin: 3rem 0;
+    }
+
+    #rappels .wrap .box_left img {
+        width: 20rem;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    #vax .wrap {
+        flex-direction: row;
+    }
+
+    #single_vax .wrap .box_left img {
+        width: 70%;
+    }
+
+    #users .wrap .box_left {
+        gap: 2vw;
+    }
+
+    #masthead li {
+        font-size: 1.5rem;
+    }
+
+    #connexion .wrap .intro_carnet {
+        flex-direction: column;
+        gap: 5vw;
+
+    }
+
+    #connexion .wrap .intro_carnet .separator {
+        height: 5px;
+        width: 30vw;
+    }
+
+    #connexion .box_right {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #connexion .wrap .intro_carnet {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        align-items: center;
+    }
+
+    #incription .wrap .intro_carnet {
+        gap: 4vw;
+        flex-direction: column;
+    }
+
+    #incription .wrap .intro_carnet .separator {
+        height: 5px;
+        width: 30vw;
+    }
+
+    .box_right {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #incription .wrap .box_right form input {
+        background: var(--secondary);
+        border: none;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    #incription .wrap .box_right form .boxhaut {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .modal-content {
+        top: 23%;
+        right: 11%;
+    }
+
+    #connexion .wrap .box_left img {
+        width: 24rem;
+    }
+
+    .box_right {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #listing .wrap .box_left img {
+        width: 18rem;
+    }
+
+    .wrap {
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    #liste_carnet .wrap .suprRappel a {
+        padding: 0.6rem 0.8rem;
+    }
+
+    .ns_pres {
+        flex-direction: column;
+    }
+
+    .qsm_pres {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #questionFrequente .qcm_pres {
+        flex-direction: column-reverse;
+        gap: 4vw;
+    }
+
+    #fixedButton {
+        height: 6vw;
+        width: 6vw;
+    }
+
+
+    footer .footerAll {
+        justify-content: space-evenly;
+    }
+
+    img {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 700px) {
+    header nav li {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+        font-size: 4vw;
+    }
+
+    #masthead .wrap {
+        padding: 3vw;
+        flex-direction: row;
+    }
+
+    .title_page {
+        position: absolute;
+        font-size: 4vw;
+        top: 1vw;
+        left: 56vw;
+        margin: -1%;
+    }
+
+    .intro_listing .box_left img,
+    .intro_listing .separator {
+        display: none;
+    }
+
+    #listing .wrap .intro_listing {
+        padding: 0;
+        ;
+    }
+
+    .wrap {
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    #listing .wrap .box_right a,
+    #listing .wrap .box_right p {
+        width: 100%;
+    }
+
+    #listing .wrap .box_right {
+        padding-left: 0;
+    }
+
+    #liste_carnet .wrap .suprRappel {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    #add_carnet .wrap .intro_carnet {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .intro_carnet .box_left img,
+    .intro_carnet .separator {
+        display: none;
+    }
+
+    .wave {
+        padding-top: 7rem;
+    }
+
+    #vax .wrap .suprRappel {
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .boxVax .box_left img,
+    .boxVax .separator {
+        display: none;
+    }
+
+    #single_vax .wrap .box_right a,
+    #rappels .wrap .box_right a {
+        width: 100%;
+    }
+
+    #single_vax .wrap .box_right p,
+    #rappels .wrap .box_right p {
+        width: 100%;
+    }
+
+    #single_vax .wrap .boxVax {
+        padding: 0;
+    }
+
+    #single_vax .wrap .box_right {
+        padding-left: 0;
+    }
+
+    #vax .wrap {
+        margin: 2vw auto;
+    }
+
+    #vax .wrap {
+        padding: 0 0;
+    }
+
+    .intro_rappels .box_left img,
+    .intro_rappels .separator {
+        display: none;
+    }
+
+    #rappels .wrap .box_right {
+        padding-left: 0;
+    }
+
+    #rappels .wrap .intro_rappels {
+        padding: 0;
+    }
+
+    #masthead ul a {
+        padding: 0;
+        margin-top: 5vw;
+    }
+
+    #fixedButton {
+        height: 9vw;
+        width: 9vw;
+    }
+
+    footer .footerAll {
+        flex-direction: column;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        gap: 8vw;
+        margin-block: 2vw;
+        align-items: baseline;
+    }
+
+    footer .footerAll .nav {
+        text-align: center;
+        border-left: none;
+    }
+
+    footer .footerAll nav ul li {
+        display: inline;
+        margin-inline: 2vw;
+    }
+
+    footer .footerAll nav ul {
+        display: inline;
+
+    }
+
+    footer .footerAll .reseau {
+        border-left: none;
+        margin-block: 5vw;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    footer .footerAll .contact h2 {
+        padding-bottom: 2.5rem;
+        font-size: 2rem;
+    }
+
+    footer .footerAll .contact li {
+        font-size: 1rem;
+
+    }
+
+    #listing .wrap .box_right a,
+    #listing .wrap .box_right p {
+        width: 90%;
+    }
+
+    footer .footerAll .contact li {
+        font-size: 0.5rem;
+    }
+
+    #vax .carnet img {
+        width: 3rem;
+    }
+
+    #vax .container_carnet .carnet img {
+        margin-right: 1rem;
+    }
+
+    .wrap {
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    #contact .wrap .box_right form {
+        padding-left: 0;
+        align-items: center;
+        width: 100%;
+    }
+
+    #contact .wrap .box_right form .box textarea,
+    input {
+        background: var(--secondary);
+        resize: none;
+        border: none;
+        padding: 1rem 0.1rem;
+    }
+
+    .burger-icon {
+        font-size: 6vw;
+    }
+
+    .title_page {
+        font-size: 6vw;
+    }
+
+    .wave {
+        padding-top: 4rem;
+    }
+
+    #liste_carnet .wrap .container_carnet .carnet {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    #liste_carnet .wrap .container_carnet .carnet {
+        padding: 0.7rem;
+        margin: 0.5rem;
+    }
+
+    .suprRappel a {
+        font-size: 0.8rem;
+    }
+
+    #liste_carnet .wrap .suprRappel a {
+        margin-right: 1rem;
+    }
+
+    .title_page {
+        font-size: 4vw;
+    }
+
+    #fixedButton {
+        height: 12vw;
+        width: 12vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
