@@ -150,7 +150,6 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 ## 👨‍💻 Author
 
 Created by: 
-- Mts
 - [@Mts76000](https://github.com/Mts76000)
 -  [@BilelDounar](https://github.com/BilelDounar)
 - Tristan M.
