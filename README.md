@@ -151,8 +151,7 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 
 Created by: 
 - Mts
--  [@BilelDounar]([https://github.com/nom_utilisateur](https://github.com/BilelDounar)https://github.com/BilelDounar)
-
+-  [@BilelDounar](https://github.com/BilelDounar)
 - Tristan M.
 
 
